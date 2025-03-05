@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Marco Pienaar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #555;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+            margin-top: 20px;
+        }
+        .content-section {
+            flex: 1; 
+            margin-right: 20px;
+            border: 2px solid #000;
+            padding: 15px;
+            border-radius: 5px; 
+        }
+        .photo-section {
+            flex-shrink: 0; 
+            text-align: center;
+            
+        }
+        .photo-section img {
+            max-height: 300px; 
+            width: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        
+        <div class="flex-container">
+            <div class="content-section">
+                <p>
+                    I’m Marco Pienaar, a multi-instrumentalist who plays electric and acoustic guitar, drums, and performs heavy vocals found in metal music—I even write my own songs. 
+                    I enjoy keeping active with regular exercise, and when I’m not making music, you’ll likely find me gaming. I’m a fan of titles like League of Legends and CS:GO, and I have a soft spot for retro gaming. 
+                    I love emulating old consoles like the PS2 and GBA, and I get a kick out of modding their operating systems to tweak and enhance the experience. 
+                    Whether it’s shredding a riff or diving into a virtual world, I’m all about exploring and creating.
+                </p>
+            </div>
+            <div class="photo-section">
+                <img src="resources/face.jpeg" alt="Marco Pienaar">
+            </div>
+        </div>
+
+        <div class="section">
+            <a href="index.html" class="btn">Back to CV</a>
+        </div>
+    </div>
+</body>
+</html>
